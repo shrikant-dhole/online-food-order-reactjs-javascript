@@ -1,0 +1,81 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.header-logo {
+  height: 60px;
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.header-right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+.header-location-search-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: var(--primary-box-shadow);
+  border: 3px solid var(--border-white);
+  width: 60%;
+  background-color: var(--primary-bg);
+  padding: 10px;
+}
+.location-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.location-icon-name {
+  display: flex;
+  color: var(--bitemate-gray);
+}
+.location-icon {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.location-search-separater {
+  height: 20px;
+  border: 0.5px solid gray;
+}
+.header-searchbar {
+  display: flex;
+
+  flex: 2;
+}
+.search-icon {
+  font-size: 20px;
+  color: var(--bitemate-gray);
+  margin: 0px 12px;
+}
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 80%;
+}
+
+.profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+}
+.header-profile-image {
+  height: 25px;
+  width: 30px;
+}
+.header-username{
+font-size: 20px;
+}
+.profile-options-icon{
+    font-size: 20px;
+}

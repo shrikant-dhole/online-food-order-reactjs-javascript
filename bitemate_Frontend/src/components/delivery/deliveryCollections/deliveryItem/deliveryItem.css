@@ -1,0 +1,17 @@
+.delivery-item-cover {
+  height: 150px;
+  width: 150px;
+  background-color: var(--primary-bg);
+}
+.delivery-item-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.delivery-item-title {
+  font-size: 20px;
+  font-weight: 500px;
+  text-overflow: hidden;
+  margin-top: 6px;
+}
